@@ -1,0 +1,68 @@
+body {
+    height: 100vh;
+    background-image: linear-gradient(to bottom right,rgb(231, 229, 229), rgb(240, 240, 240));
+    overflow:hidden;
+}
+
+
+#calculator-container {
+    width: 300px;
+    height: 500px;
+    background-image: linear-gradient(to bottom right,rgb(230, 230, 230), rgb(240, 240, 240));
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 25px 25px;
+    box-shadow: -5px -5px 9px #FFFFFF,
+         5px 5px 9px #A3B1C6;
+    margin: 100px auto 0px auto;
+    
+}
+
+#calculator-display {
+    width: 280px;
+    height: 90px;
+    margin: 5px;
+    padding-right: 10px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 25px 25px 0 0;
+    border: none;
+    box-shadow: inset -3px -3px 5px #FFFFFF,
+        inset 3px 3px 5px #A3B1C6;
+    caret-color: rgb(240, 240, 240);
+    outline: none;
+    font-weight: 400;
+    font-size: 3em;
+    text-align: right;
+    overflow: auto;
+}
+
+.calc-btn {
+    margin: 8px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(240, 240, 240);
+    box-shadow:  -3px -3px 5px #FFFFFF,
+        3px 3px 5px #A3B1C6;
+    flex: content;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.sml-btn {
+    width: 55px;
+    height: 55px;
+    
+}
+
+.lrg-btn {
+    width: 132px;
+    height: 55px;
+}
+
+button:active {
+    box-shadow: inset -3px -3px 5px #FFFFFF,
+        inset 3px 3px 5px #A3B1C6;
+}
